@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>module-1-assignment for bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<style>
+  body{
+    background-color: red;
+  }
+.navbar
+{
+
+  margin: 10px;
+}
+.card button{
+  display: flex;
+  justify-content: flex-end;
+}
+.col
+{
+  padding-top: 20px;
+}
+.btn-group{
+  display: flex;
+  justify-content: end;
+
+}
+button a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+.sub{
+  text-align: center;
+  color: blanchedalmond;
+}
+.sub p{
+  font-weight: lighter;
+}
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.card a
+{
+color: bisque;
+}
+.col-auto input
+{
+  display: grid;
+  grid-template-columns: (2,1fr);
+width: 300px;
+
+
+}
+.col-auto button
+{
+  margin-right:300PX ;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#models"  style="color: aliceblue;">MODELS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ducati-world" style="color: aliceblue;">DUCATI WORLD</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#HIGHLIGHT"  style="color: aliceblue;">RACING HIGHLIGHTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ser-info"  style="color: aliceblue;">SERVICE AND MAINTENENCE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#CON-INFO"  style="color: aliceblue;">DEALER CONTACT INFO</a>
+      </li>
+
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+     <a href=""><img src="ducati_logo2-removebg-preview.png" alt="logo" height="80px"></a> 
+      <a href=""><img src="duc_logo-removebg-preview.png" alt="logo" height="90px"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      
+          
+    
+      </button>
+    </div>
+  </nav>
+
+  
+  <div class="card bg-dark text-white">
+    <img src="duc33.jpg" class="card-img" alt="not found" >
+    <div class="card-img-overlay">
+ 
+      <button style="background-color: rgb(230, 27, 27); ; border: hidden; color: aliceblue; padding: 5px;">CELEBRATE WITH US</button >
+    </div>
+  </div>
+
+
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 " >
+        <img src="duc222.jpg" class="card-img-top" alt="not found">
+        <div class="card-body">
+          <h5 class="card-title">MOTO GP</h5>
+          <p class="card-text">Sixth Petrucci and fourteenth Dovizioso on the final day of testing in Sepang.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="corse.jpg" class="card-img-top" alt="not found">
+        <div class="card-body">
+          <h5 class="card-title">MOTOCROSS</h5>
+          <p class="card-text">Two days of testing conclude at Jerez de la Frontera for Aruba.it Racing –            Ducati with Redding and Davies in 3rd and 15th position.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="ducati 333.jpg" class="card-img-top" alt="not found">
+        <div class="card-body">
+          <h5 class="card-title">MOTO GP</h5>
+          <p class="card-text">the 2024 mission winnow ducati team presented in bologna.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+
+<hr>
+<h2 style="text-align: center; color: aliceblue;">HIGHLIGHT</h2>
+<br>
+
+
+<div class="card mb-3" id="HIGHLIGHT">
+  <img src="racing11.jpeg" class="card-img-top" alt="not found">
+  <div class="card-body">
+    <h5 class="card-title">press reviews-india</h5>
+    <p class="card-text">check out what the india Auto media is say about the <br>ducati motocycle range</p>
+    
+  </div>
+</div>
+<div class="card mb-3">
+  <img src="racing 22.png" alt="not found">
+  <div class="card-body">
+    <h5 class="card-title"" class="card-text"><small class="text-muted" >press previews-champion</h5>
+    <p class="card-text">we look for forward to seeing you in bologna to celebrate with our champions the extraordinary results of this season </p>
+    
+  </div>
+</div>
+</div>
+<hr>
+<h2 style="text-align: center;" class="card-text"><small class="text-muted">MODELS</small></h2>
+<br>
+<hr>
+
+
+
+
+
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-danger"> <a href="#desert-x">DESERT-X</a> </button>
+  <button type="button" class="btn btn-warning"> <a href="#street-f-v4">STREET-FIGHTER-V4</a></button>
+  <button type="button" class="btn btn-success"> <a href="#panigale">PANIGALE V2</a> </button>
+  
+</div>
+
+
+
+
+
+<br>
+<h2 id="desert-x" style="text-align: center;">Desert-X</h2>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card" id="desert-x">
+      <img src="mo1.jpg" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">DESERT-X</h5>
+        <p class="card-text">With off-road chassis and advanced electronics,DesertX is a responsive and maneuverable motorcycle,at ease both off-road and on asphalt.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo1-3.gif" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">DESERT-X RALLY</h5>
+        <p class="card-text">Whether they are in off-road or rally-raid competitions,desertx rally is designed to get you through the toughedst challenges.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo1-2.avif" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">DESIGNED FOR OFF-ROADING</h5>
+        <p class="card-text">Mass-coloured plastics and adhesive pvc graphics for greater resistance. A robust sports-tools that instils safety and proficiency on any terrain</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo1-1.webp" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">FOR THE MOST DEMANDING OFF-ROAD RIDERS</h5>
+        <p class="card-text">Heightened off-road perfomance,top-notch componentry.Ready to race and take on the most extreme adventures</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+<hr id="street-f-v4"><h2 style="text-align: center;">Street-fighter-V4</h2>
+<br>
+
+
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4" >
+  <div class="col">
+    <div class="card" id="street-f-v4">
+      <img src="MO-2-1.jpg" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">STREET-FIGHTER-V2</h5>
+        <p class="card-text">Storm green with black wheels and red tags or the sporty ducati red version choose the one that suits the most your personality <br> price starts 18,50,200(EX-Showroom India)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="MO2-2.jpg" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">VECHICLE AND ERGONOMICS</h5>
+        <p class="card-text">The right mix of sportiness and comfort: the revised seat combined with the high and wide handlebars contributes to making this bike even more comfortable during soports riding whilre also facilitating its everyday use.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="MO2-3.jpg" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">STREET-FIGHTER-V2</h5>
+        <p class="card-text">The garments for not going unnoticed</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="MO2-4.jpg" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">DESIGN</h5>
+        <p class="card-text">Essential and sharp the design of the new Streetfighter V@ embraces the streetfighter V$: the V-shaped DRL typical of ducati sports bikes and inspired by the famous grin of the joker</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<br>
+<hr id="panigale"><h2 style="text-align: center;">Panigale V2</h2>
+<br>
+
+
+
+
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4" >
+  <div class="col">
+    <div class="card" id="multi-v4rs">
+      <img src="mo3-1.png" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">PANIGALE V2</h5>
+        <p class="card-text">The thrill of taking the family's top-of-the-line Panigale V4 R to the track</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo3-2.jpg" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">The Tribute to an era</h5>
+        <p class="card-text">panigale v2 superquadro final edition</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo3-3.png" class="card-img-top" alt="network issue">
+      <div class="card-body">
+        <h5 class="card-title">Born To Celebrate</h5>
+        <p class="card-text">Panigale v2 Bayliss 1st championship 20th Anniversary</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="mo3-4.png" class="card-img-top" alt="not found">
+      <div class="card-body">
+        <h5 class="card-title">Panigale v2</h5>
+        <p class="card-text">The Red Essence</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<hr><h2 style="text-align: center;">DUCATI WORLD <br> MOTO GP</h2>
+<br>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" id="ducati-world">
+    <div class="carousel-item active">
+      <img src="ca-3.webp" class="d-block w-100" alt="not found" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> DUCATI DECISIONS</h5>
+        <p>This is the 2024 MotoGP rider line-up - including information about the duration of every rider's contract.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ca -1.jpg" class="d-block w-100" alt="not found" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Marc marquez</h5>
+        <p>Marc Márquez finished third in the Riders' standings in his first year on Ducati machinery.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ca-22.png" class="d-block w-100" alt="not found" height="600px" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ducati Term 2024</h5>
+        <p>An all-Italian pairing: Francesco Bagnaia and Enea Bastianini. Get to know our champions and the whole wonderful Ducati Lenovo Team up close.<p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<br>
+<hr id="ser-info"><h2 style="text-align: center;">SERVICE INFORMATION</h2>
+<br>
+
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ser-11.jpg" class="d-block w-100" alt="not found" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img src="ser-2.jpg" class="d-block w-100" alt="not found" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img src="ser -3.jpg" class="d-block w-100" alt="not found" height="600px">
+    </div>
+  </div>
+</div>
+
+
+<hr>
+<br>
+<div class="sub">
+<h2>Subscribe to the Ducati newsletter</h2>
+<p>By entering your email address you will always be up to date with the latest Ducati news and promotions.
+ <br>
+  At any time you can complete your registration and create your profile on Ducati.com to receive personalised communications and access all features</p>
+<br>
+<p>I declare that I have read the privacy policy drafted pursuant to art. 13 of EU Regulation 2016/679 on the
+  <br>
+  protection of personal data ("Regulation") and I authorise the processing of my email address for the purposes specified therein.</p>
+</div>
+<br>
+
+
+<form class="row g-3" id="CON-INFO">
+  <div class="col-auto">
+    <label for="staticEmail2" class="visually-hidden">Email</label>
+    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword2" class="visually-hidden">email</label>
+    <input type="email" class="form-control" id="staticEmail2" placeholder="ENTER A VALID EMAIL ADDRESS ">
+  </div>
+  <br>
+  <div class="col-auto">
+    <button style="background-color: rgb(190, 40, 40); border: hidden;" type="submit" class="btn btn-primary mb-3">Subscribe Now</button>
+   
+  </div>
+  <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+</form>
+
+
+
+<br>
+<hr>
+<br>
+
+
+
+<div class="card bg-dark text-white">
+  <img src="con bg.png" class="card-img" alt="network issue" height="245px">
+  <div class="card-img-overlay">
+    <h5 class="card-title">DUCATI / member of the audi group</h5>
+    <p class="card-text">Copyright © 2024 Ducati Motor Holding S.p.A – A Sole Shareholder Company - A Company subject to the Management and Coordination activities of AUDI AG. All rights reserved. VAT 05113870967667</p>
+    <p class="card-text">
+      <a href="https://www.instagram.com/ducati/?hl=en"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+      &nbsp; &nbsp;
+     <a href="https://x.com/ducatimotor?lang=en"><i class="fa fa-twitter-square" style="font-size:36px"></i></a> 
+      &nbsp; &nbsp;
+     <a href="https://www.facebook.com/DucatiIndia/"><i class="fa fa-facebook-f" style="font-size:36px"></i></a> 
+      &nbsp; &nbsp;
+     <a href="https://www.youtube.com/ducati"><i class="fa fa-youtube-play" style="font-size:36px"></i></a> 
+      &nbsp; &nbsp;
+      <a href="https://www.linkedin.com/company/ducati-india/?originalSubdomain=in"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+    
+    
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
